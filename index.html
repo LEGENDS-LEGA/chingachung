@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень, Ножницы, Бумага </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Камень, Ножницы, Бумага</h1>
+        <div class="choices">
+            <div class="player" id="player1">
+                <h2>Игрок 1</h2>
+                <button id="rock1" class="choice">
+                    <img src="qar.png" alt="Камень">
+                </button>
+                <button id="paper1" class="choice">
+                    <img src="tuxt.png" alt="Бумага">
+                </button>
+                <button id="scissors1" class="choice">
+                    <img src="mkrat.png" alt="Ножницы">
+                </button>
+            </div>
+            <div class="player" id="player2">
+                <h2>Игрок 2</h2>
+                <button id="rock2" class="choice">
+                    <img src="qar.png" alt="Камень">
+                </button>
+                <button id="paper2" class="choice">
+                    <img src="tuxt.png" alt="Бумага">
+                </button>
+                <button id="scissors2" class="choice">
+                    <img src="mkrat.png" alt="Ножницы">
+                </button>
+            </div>
+        </div>
+        <button id="play" class="play-button">Играть</button>
+        <div class="result">
+            <p id="result-text"></p>
+        </div>
+    </div>
+</body>
+</html>
